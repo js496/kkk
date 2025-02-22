@@ -68,4 +68,4 @@ services:
       - "8000:8000"
     volumes:
       - /path/to/models:/app/model
-    command: ["--model", "microsoft/Phi-3.5-MoE-instruct"]
+    command: ["--model", "upstage/solar-pro-preview-instruct"]
